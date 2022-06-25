@@ -1,0 +1,17 @@
+def CountWordsFromFile():
+    fileName = input("Enter the file name:- ")
+
+
+    numberOfWords = 0
+
+
+    File = open(fileName,'r')
+      for line in file:
+        words = line.spilt()
+        numberOfWords = numberOfWords + len(words)
+        print("number of words:")
+        print(numberOfWords)
+
+
+
+    CountWordsFromFile()    
